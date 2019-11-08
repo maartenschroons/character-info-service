@@ -39,8 +39,8 @@ public class Character {
     @Column(name="dexterity")
     private int Dexterity;
 
-    @Column(name="conjuring")
-    private int conjuring;
+    @Column(name="constitution")
+    private int constitution;
 
     @Column(name="wisdom")
     private int wisdom;
