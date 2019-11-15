@@ -1,6 +1,6 @@
 # character-info Microservice
 
-De Microservice charachter-info gaan we gebruiken voor het bewaren van de statestieken van een character. Deze zullen uit een externe API gaan halen, namelijk de [D&D 5e API](http://www.dnd5eapi.co/)
+De Microservice charachter-info gaan we gebruiken voor het bewaren van de statestieken van een character. Deze zullen we uit een externe API gaan halen, namelijk de [D&D 5e API](http://www.dnd5eapi.co/)
 
 ## Parameters
 
