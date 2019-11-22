@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CharacterInfoServiceApplication {
+public class CharacterServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CharacterInfoServiceApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(CharacterServiceApplication.class, args);
+    }
 }

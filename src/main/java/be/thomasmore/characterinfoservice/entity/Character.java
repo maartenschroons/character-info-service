@@ -15,17 +15,17 @@ public class Character {
     @Column(name="id")
     private int id;
 
-    @Column(name="raceId")
-    private int raceId;
+    @Column(name="raceid")
+    private String raceid;
 
-    @Column(name="equipmentId")
-    private int equipment;
+    @Column(name="equipmentid")
+    private int equipmentid;
 
-    @Column(name="classId")
-    private int classId;
+    @Column(name="classid")
+    private int classid;
 
-    @Column(name="playerId")
-    private int playerId;
+    @Column(name="playerid")
+    private int playerid;
 
     @Column(name="name")
     private String name;
@@ -33,11 +33,11 @@ public class Character {
     @Column(name="alignment")
     private String alignment;
 
-    @Column(name="strenght")
-    private int Strenght;
+    @Column(name="strength")
+    private int strength;
 
     @Column(name="dexterity")
-    private int Dexterity;
+    private int dexterity;
 
     @Column(name="constitution")
     private int constitution;

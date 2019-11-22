@@ -8,4 +8,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @CrossOrigin
 public interface CharacterRepository extends JpaRepository<Character, Integer>{
     Character findCharacterByName(@Param("name") String name);
+    Character findCharacterById(@Param("id") Integer id);
 }
+// http://localhost:8002/characters/search/findCharacterByName?name=valanthe
+// http://localhost:8002/characters/search/findCharacterById?id=1
+
