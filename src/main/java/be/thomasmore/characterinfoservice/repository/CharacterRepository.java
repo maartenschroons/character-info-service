@@ -19,11 +19,11 @@ import java.util.List;
 @Repository
 @RepositoryRestResource(path = "characters")
 public interface CharacterRepository extends JpaRepository<Character, Integer> {
-    Character findCharacterByName(@Param("name") String name);
     Character findCharacterById(@Param("id") Integer id);
+    List<Character> findCharactersByPlayeridOrderByName(@Param("playerid") Integer playerid);
     List<Character> findAllByNameNotNull();
 }
-// http://localhost:8002/characters/search/findCharacterByName?name=valanthe
 // http://localhost:8002/characters/search/findCharacterById?id=1
+// http://localhost:8002/characters/search/findCharactersByPlayeridOrderByName?playerid=1
 // http://localhost:8002/characters/search/findAllByNameNotNull
 
